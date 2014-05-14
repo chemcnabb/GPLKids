@@ -23,15 +23,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="laugh.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="laugh.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laugh.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49298596" vertical-offset="1930" max-vertical-offset="5967">
-              <caret line="128" column="28" selection-start-line="128" selection-start-column="28" selection-end-line="128" selection-end-column="28" />
+            <state vertical-scroll-proportion="-4.1568627" vertical-offset="1930" max-vertical-offset="5967">
+              <caret line="126" column="0" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
               <folding>
                 <element signature="tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-                <marker date="1400086596736" expanded="true" signature="1062:1215" placeholder="..." />
-                <marker date="1400086596736" expanded="true" signature="1155:1183" placeholder="..." />
+                <marker date="1400091229966" expanded="true" signature="1062:1215" placeholder="..." />
+                <marker date="1400091229966" expanded="true" signature="1155:1183" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -50,6 +50,16 @@
                 <marker date="1400077582704" expanded="true" signature="891:1044" placeholder="..." />
                 <marker date="1400077582704" expanded="true" signature="984:1012" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="global.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/styles/global.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.27175844" vertical-offset="0" max-vertical-offset="1394">
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -87,7 +97,7 @@
       <file leaf-file-name="laugh.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/laugh.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.16" vertical-offset="4564" max-vertical-offset="9775">
+            <state vertical-scroll-proportion="-54.08" vertical-offset="3391" max-vertical-offset="9775">
               <caret line="279" column="12" selection-start-line="279" selection-start-column="12" selection-end-line="279" selection-end-column="12" />
               <folding />
             </state>
@@ -116,13 +126,13 @@
         <option value="$PROJECT_DIR$/styles/ie.css" />
         <option value="$PROJECT_DIR$/styles/imagine.css" />
         <option value="$PROJECT_DIR$/styles/main.css" />
-        <option value="$PROJECT_DIR$/styles/global.css" />
         <option value="$PROJECT_DIR$/styles/hero-animation.css" />
         <option value="$PROJECT_DIR$/styles/tabs.css" />
         <option value="$PROJECT_DIR$/styles/navigation.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/styles/laugh.css" />
         <option value="$PROJECT_DIR$/laugh.html" />
+        <option value="$PROJECT_DIR$/styles/global.css" />
       </list>
     </option>
   </component>
@@ -746,14 +756,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/global.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33271375" vertical-offset="212" max-vertical-offset="1326">
-          <caret line="23" column="1" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.576923" vertical-offset="612" max-vertical-offset="3604">
@@ -769,23 +771,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/laugh.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.1568627" vertical-offset="1930" max-vertical-offset="5967">
+          <caret line="126" column="0" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+          <folding>
+            <element signature="tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+            <marker date="1400091229966" expanded="true" signature="1062:1215" placeholder="..." />
+            <marker date="1400091229966" expanded="true" signature="1155:1183" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/styles/laugh.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.16" vertical-offset="4564" max-vertical-offset="9775">
+        <state vertical-scroll-proportion="-54.08" vertical-offset="3391" max-vertical-offset="9775">
           <caret line="279" column="12" selection-start-line="279" selection-start-column="12" selection-end-line="279" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laugh.html">
+    <entry file="file://$PROJECT_DIR$/styles/global.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49298596" vertical-offset="1930" max-vertical-offset="5967">
-          <caret line="128" column="28" selection-start-line="128" selection-start-column="28" selection-end-line="128" selection-end-column="28" />
-          <folding>
-            <element signature="tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <marker date="1400086596736" expanded="true" signature="1062:1215" placeholder="..." />
-            <marker date="1400086596736" expanded="true" signature="1155:1183" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.27175844" vertical-offset="0" max-vertical-offset="1394">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
