@@ -2,8 +2,9 @@
     float: right;
     margin-top: -407px;
 }
-#bottom-container {
+.laugh #bottom-container {
     width: 1000px;
+    margin:0 auto;
 }
 
 #art-bridge {
@@ -274,7 +275,7 @@
     position: relative;
     z-index: 100;
     float: left;
-    left: 585px;
+
     width: 102px;
     height: 115px;
     top:0px;
@@ -300,7 +301,6 @@
 @-webkit-keyframes bottom-fish-zag {
     0% {
         left: 585px;
-
 
     }
 
@@ -354,37 +354,37 @@
 
 @-webkit-keyframes duck-animation {
     0% {
-        top: 325px;
+        top: 450px;
     }
     25% {
-        top: 320px;
+        top: 445px;
     }
     50% {
-        top: 325px;
+        top: 450px;
     }
     70% {
-        top: 320px;
+        top: 445px;
     }
     100% {
-        top: 325px;
+        top: 450px;
     }
 }
 
 @keyframes duck-animation {
     0% {
-        top: 325px;
+        top: 450px;
     }
     25% {
-        top: 320px;
+        top: 445px;
     }
     50% {
-        top: 325px;
+        top: 450px;
     }
     70% {
-        top: 320px;
+        top: 445px;
     }
     100% {
-        top: 325px;
+        top: 450px;
     }
 }
 
@@ -411,37 +411,37 @@
 
 @-webkit-keyframes boat-animation {
     0% {
-        top: 90px;
+        top: 190px;
     }
     25% {
-        top: 100px;
+        top: 200px;
     }
     50% {
-        top: 90px;
+        top: 190px;
     }
     70% {
-        top: 100px;
+        top: 200px;
     }
     100% {
-        top: 90px;
+        top: 190px;
     }
 }
 
 @keyframes boat-animation {
     0% {
-        top: 90px;
+        top: 190px;
     }
     25% {
-        top: 100px;
+        top: 200px;
     }
     50% {
-        top: 90px;
+        top: 190px;
     }
     70% {
-        top: 100px;
+        top: 200px;
     }
     100% {
-        top: 90px;
+        top: 190px;
     }
 }
 

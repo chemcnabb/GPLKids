@@ -39,7 +39,7 @@ body{
     height: 4em;
 }
 .header{
-    overflow:auto;
+    overflow:visible;
     z-index:1;
     position:relative;
 }
