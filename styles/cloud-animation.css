@@ -1,0 +1,92 @@
+#cloud-right {
+    position: relative;
+
+    /* Chrome, Safari, Opera */
+    -webkit-animation-name: cloud-drift;
+    -webkit-animation-duration: 15s;
+
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-play-state: running;
+    /* Standard syntax */
+    animation-name: cloud-drift;
+    animation-duration: 15s;
+
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: running;
+}
+
+#cloud-left {
+    position: relative;
+
+    /* Chrome, Safari, Opera */
+    -webkit-animation-name: cloud-drift-slow;
+    -webkit-animation-duration: 30s;
+    -webkit-animation-delay:-7s; /* Safari and Chrome */
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-play-state: running;
+    /* Standard syntax */
+    animation-name: cloud-drift-slow;
+    animation-duration: 30s;
+
+    animation-delay:-7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: running;
+}
+
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes cloud-drift {
+    0% {
+
+        right: -130%;
+    }
+
+    100% {
+
+        right: 130%;
+    }
+}
+
+/* Standard syntax */
+@keyframes cloud-drift {
+    0% {
+
+        right: -130%;
+    }
+
+    100% {
+
+        right:130%;
+    }
+}
+
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes cloud-drift-slow {
+    0% {
+
+        left: 130%;
+    }
+
+    100% {
+
+        left: -130%;
+    }
+}
+
+/* Standard syntax */
+@keyframes cloud-drift-slow {
+    0% {
+
+        left: 130%;
+    }
+
+    100% {
+
+        left:-130%;
+    }
+}

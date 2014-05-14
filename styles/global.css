@@ -1,0 +1,73 @@
+html, body {
+    height: 100%;
+    width:100%;
+    margin: 0;
+    padding:0;
+    /*overflow-x:hidden;*/
+}
+
+.imagine {
+    background-color: #92d9f7;
+}
+.laugh{
+    background-color: #00aded;
+}
+
+
+.funt, .funt span{
+    text-decoration:none;
+    color:#000;
+    font-size:13pt;
+    font-weight:bold;
+    font-family:arial, sans-serif;
+}
+.container {
+    position:relative;
+    width: 1000px;
+
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+
+    margin: 0 auto -4em;
+}
+.push, .tab {
+    height: 4em;
+}
+.header{
+    overflow:auto;
+    z-index:1;
+    position:relative;
+}
+
+
+#background {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    top:0;
+    /*overflow-x:hidden;*/
+}
+
+#midground {
+    position: absolute;
+    z-index: 1;
+
+}
+
+#bottom-container {
+    z-index: 2;
+    position: relative;
+    top: 150px;
+
+
+}
+
+#background-footer{
+    width:100%;
+    padding:0;
+    bottom:0;
+
+
+
+}

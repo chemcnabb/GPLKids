@@ -1,0 +1,174 @@
+/* Style for Usual tabs */
+#tabs {
+    background-color: #0066cc;
+    color: #fff;
+    padding: 15px 0px;
+    width: 675px;
+    border-right: 10px solid #336699;
+    border-top: 10px solid #336699;
+    float: right;
+    margin: 0 auto;
+    height: auto;
+    border-radius: 12px 12px 0 0;
+    z-index: 2;
+    position: relative;
+    /*right: -175px;*/
+}
+
+#tabs .foot+span {
+    right: -10px;
+    bottom: 0;
+    position: absolute;
+}
+#tabs .foot+span img{
+    position: relative;
+    top: 3px;
+}
+ul#tab-heading {
+    position:absolute;
+    text-align: center;
+    width: 675px;
+}
+
+ul#tab-heading li {
+    position: relative;
+    list-style: none;
+    margin-right:15px;
+    float: right;
+    top: -85px;
+    right: 0;
+    background-color:#0066cc;
+    background-image: url(../images/textures/line-shadow.png);
+    border-right:10px solid #336699;
+    border-top:10px solid #336699;
+    border-radius: 12px 12px 0 0;
+    min-width:120px;
+    min-height:60px;
+
+}
+
+ul#tab-heading li a img{
+    position: absolute;
+    top: -60px;
+    left: 9px;
+}
+
+ul#tab-heading li a div{
+    position: relative;
+    top: 55px;
+}
+#tabs > ul a {
+    display:block;
+    padding:6px 10px;
+    text-decoration:none!important;
+    margin:1px;
+    margin-left:0;
+
+    color:#FFF;
+    /*background:#444;*/
+}
+
+.grid{
+
+}
+
+.grid ul{
+    list-style-type:none;
+    margin-left:14px;
+}
+
+.grid ul li{
+    width:185px;
+    height:135px;
+    /*background-color:#fff;*/
+    float:left;
+    border-radius: 12px;
+    margin-top:56px;
+    background-image:url(../images/nav-grid/icon-box.png)
+    /*-webkit-box-shadow: 5px 5px 0px 0px #336699;*/
+    /*-moz-box-shadow: 5px 5px 0px 0px #336699;*/
+    /*box-shadow: 5px 5px 0px 0px #336699;*/
+}
+
+.grid ul li:not(:first-child){
+    margin-left:45px;
+}
+.grid ul li:nth-child(3n+4){
+    margin-left:0;
+}
+
+
+
+
+
+.thumbs li a,
+.thumbs li a img {
+    display: block;
+    position: relative;
+    height: 100%;
+
+}
+.thumbs li a {
+    overflow: hidden;
+    height: 126px;
+    top: 1px;
+    width: 176px;
+    left: 2px;
+    border-radius: 12px;
+
+}
+.thumbs li a div {
+     position: absolute;
+     background: #333;
+     background: rgba(75,75,75,0.7);
+
+     width: 100%;
+     height: 100%;
+ }
+
+.thumbs li a div span {
+    display: block;
+    padding: 12px 0;
+    margin: 40px 20px 20px 20px;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: rgba(255,255,255,0.9);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+    box-shadow: 0 1px 0 rgba(0,0,0,0.1), 0 -10px 0 rgba(255,255,255,0.3);
+}
+
+.orange-square{
+    width: 675px;
+    float:right;
+    position: relative;
+    margin-top:-5px;
+    background-color: #ff6633;
+    z-index:1;
+    border-right: 10px solid #ff3300;
+    border-top: 10px solid #ff3300;
+    clear:both;
+    /*right: -175px;*/
+}
+
+.orange-square ul{
+    font-family: arial, sans-serif;
+    color: #fff;
+    padding: 12px 0 0 12px;
+    margin: 0 0 12px 0;
+    float: left;
+    width: 213px;
+}
+.orange-square ul h1{
+     margin-bottom:12px;
+     font-weight:bold;
+ }
+.orange-square ul:not(:first-child) h1{
+    position:relative;
+    left:12px;
+}
+
+.orange-square ul:not(:first-child) li{
+    position:relative;
+    left:12px;
+}
