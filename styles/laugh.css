@@ -1,4 +1,7 @@
-
+#undersea{
+    float: right;
+    margin-top: -407px;
+}
 #bottom-container {
     width: 1000px;
 }
@@ -106,7 +109,7 @@
 
 #mermaid {
     position: relative;
-    top: 490px;
+    bottom: -310px;
     left: 335px;
     float: left;
     /* bottom: 0; */
@@ -274,6 +277,7 @@
     left: 585px;
     width: 102px;
     height: 115px;
+    top:0px;
 
 
     /* Chrome, Safari, Opera */
@@ -475,62 +479,67 @@
 
 /* WEEDS */
 #weeds {
-    position: relative;
-    z-index: 1;
-    top: 1200px;
+    position: absolute;
+    /*z-index: 10;*/
+    top: 500px;
     width: 100%;
     text-align: right;
+    /* float: right; */
+    right: 400px;
+    /* overflow: hidden; */
+    /* bottom: 0px; */
 
 
-}
-#weed1-green {
-    position: relative;
-    bottom: 623px;
-    float:right;
-}
-#weed1-blue {
-    position: relative;
-    bottom: 623px;
-    float:right;
-}
 
-#weed1-purple {
-    position: relative;
-    left: -165px;
-    bottom: 415px;
-    float:right;
+    }
+    #weed1-green {
+        position: relative;
+        /*bottom: 623px;*/
+        float:right;
+    }
+    #weed1-blue {
+        position: relative;
+        /*bottom: 623px;*/
+        float:right;
+    }
 
-}
+    #weed1-purple {
+        position: relative;
+        left: 995px;
+        bottom: 57px;
+        float: left;
 
-#weed2-purple {
-    position: relative;
-    left: 756px;
-    bottom: 419px;
-    float:right;
-}
+    }
 
-#weed2-green {
-    position: relative;
-    left: 200px;
-    bottom: 545px;
-    float: left;
+    #weed2-purple {
+        position: relative;
+        right: 260px;
+        bottom: -36px;
+        float: right;
+    }
 
-}
+    #weed2-green {
+        position: relative;
+        left: 840px;
+        bottom: 10px;
+        float: left;
 
-#weed2-blue {
-    /* right: 0px; */
-    bottom: 900px;
-    float: right;
-    /* top: 17px; */
-    position: relative;
+    }
+
+    #weed2-blue {
+        left: 1300px;
+        bottom: -70px;
+        float: left;
+        /* top: 17px; */
+        position: relative;
 }
 
 /* ROCKS */
 #rocks {
     position: absolute;
     text-align: right;
-    bottom: 170px;
-    left: 39px;
+    bottom: 210px;
+    left: 135px;
     z-index: 10;
     width: 1000px;
 }
