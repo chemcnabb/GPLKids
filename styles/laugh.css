@@ -28,9 +28,11 @@
 #octopus {
     position: relative;
     float: right;
-    top: 525px;
+    top: 425px;
     right: 244px;
     z-index: 2;
+    width: 817px;
+    height: 628px;
 }
 
 #octo {
@@ -269,7 +271,58 @@
     position: absolute;
     z-index: 100;
     top: 400px;
-    left: 295px;
+    left: 585px;
+    width: 102px;
+    height: 115px;
+
+
+    /* Chrome, Safari, Opera */
+    -webkit-animation-name: bottom-fish-zag;
+    -webkit-animation-duration: 0.5s;
+    /*-webkit-animation-delay:-7s; *//* Safari and Chrome */
+    -webkit-animation-iteration-count: infinite;
+    /*-webkit-animation-timing-function: linear;*/
+    -webkit-animation-play-state: running;
+    /* Standard syntax */
+    animation-name: bottom-fish-zag;
+    animation-duration: 0.5s;
+
+    /*animation-delay:-7s;*/
+    animation-iteration-count: infinite;
+    /*animation-timing-function: linear;*/
+    animation-play-state: running;
+}
+
+@-webkit-keyframes bottom-fish-zag {
+    0% {
+        left: 585px;
+
+
+    }
+
+    50% {
+        left: 575px;
+
+    }
+    100% {
+        left: 585px;
+
+    }
+}
+@keyframes bottom-fish-zag {
+    0% {
+        left: 585px;
+
+    }
+
+    50% {
+        left: 575px;
+
+    }
+    100% {
+        left: 585px;
+
+    }
 }
 
 #sand {
