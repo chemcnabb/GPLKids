@@ -268,9 +268,9 @@
 }
 
 #fish-bottom {
-    position: absolute;
+    position: relative;
     z-index: 100;
-    top: 400px;
+    float: left;
     left: 585px;
     width: 102px;
     height: 115px;
@@ -481,35 +481,45 @@
     width: 100%;
     text-align: right;
 
-}
 
+}
+#weed1-green {
+    position: relative;
+    bottom: 623px;
+    float:right;
+}
 #weed1-blue {
     position: relative;
-    bottom: 223px;
+    bottom: 623px;
+    float:right;
 }
 
 #weed1-purple {
     position: relative;
     left: -165px;
-    top: -135px;
+    bottom: 415px;
+    float:right;
 
 }
 
 #weed2-purple {
     position: relative;
     left: 756px;
-    top: -159px;
+    bottom: 419px;
+    float:right;
 }
 
 #weed2-green {
     position: relative;
     left: 200px;
-    top: 35px;
+    bottom: 545px;
+    float: left;
+
 }
 
 #weed2-blue {
     /* right: 0px; */
-    bottom: 545px;
+    bottom: 900px;
     float: right;
     /* top: 17px; */
     position: relative;
@@ -517,12 +527,12 @@
 
 /* ROCKS */
 #rocks {
-    position: relative;
+    position: absolute;
     text-align: right;
-    top: 1430px;
-    left: 230px;
+    bottom: 170px;
+    left: 39px;
     z-index: 10;
-    width:1000px;
+    width: 1000px;
 }
 
 #rocks1 {
