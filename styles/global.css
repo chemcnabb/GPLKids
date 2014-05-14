@@ -8,6 +8,7 @@ html, body {
 body{
     overflow-x:hidden;
     overflow-y:auto;
+    max-height:957px;
 }
 
 .imagine, .learn {
@@ -68,8 +69,9 @@ body{
 #bottom-container {
     z-index: 2;
     position: relative;
-    top: 150px;
-
+        top: 150px;
+    width: 1000px;
+    margin:0 auto;
 
 }
 
