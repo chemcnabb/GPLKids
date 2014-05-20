@@ -1,0 +1,153 @@
+#superdude {
+    position: relative;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-name: bob-float;
+    -webkit-animation-duration: 3s;
+
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+    /* Standard syntax */
+    animation-name: bob-float;
+    animation-duration: 3s;
+
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+
+#supergal {
+    position: relative;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-name: bob-float;
+    -webkit-animation-duration: 3s;
+
+    -webkit-animation-delay:-3s; /* Safari and Chrome */
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+    /* Standard syntax */
+    animation-name: bob-float;
+    animation-duration: 3s;
+    animation-delay:-3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+
+#supercat{
+    top:700px;
+    left:0;
+    position:absolute;
+
+
+
+    /* Chrome, Safari, Opera */
+    -webkit-animation-name: super-fly;
+    -webkit-animation-duration: 10s;
+    /*-webkit-animation-delay:-7s; *//* Safari and Chrome */
+    -webkit-animation-iteration-count: infinite;
+    /*-webkit-animation-timing-function: linear;*/
+    -webkit-animation-play-state: running;
+    /* Standard syntax */
+    animation-name: super-fly;
+    animation-duration: 10s;
+
+    /*animation-delay:-7s;*/
+    animation-iteration-count: infinite;
+    /*animation-timing-function: linear;*/
+    animation-play-state: running;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes super-fly {
+    0% {
+        top:1000px;
+        left: -130%;
+    }
+    15% {
+        top:925px;
+    }
+    30%{
+        top:1020px;
+    }
+    45%{
+        top:845px;
+    }
+    60%{
+        top:950px;
+    }
+    75%{
+        top:1025px;
+    }
+    90%{
+        top:925px;
+    }
+    100% {
+        top:1000px;
+        left: 180%;
+    }
+}
+
+/* Standard syntax */
+@keyframes super-fly {
+    0% {
+        top:700px;
+        left: -130%;
+    }
+    15% {
+        top:825px;
+    }
+    30%{
+        top:720px;
+    }
+    45%{
+        top:645px;
+    }
+    60%{
+        top:800px;
+    }
+    75%{
+        top:725px;
+    }
+    90%{
+        top:725px;
+    }
+    100% {
+        top:600px;
+        left: 130%;
+    }
+}
+
+
+
+
+
+
+
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes bob-float {
+    0% {
+
+        top: 0;
+    }
+
+    100% {
+
+        top: 25px;
+    }
+}
+
+/* Standard syntax */
+@keyframes bob-float {
+    0% {
+
+        top: 0;
+    }
+
+    100% {
+
+        top: 25px;
+    }
+}
