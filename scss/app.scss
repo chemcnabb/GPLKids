@@ -1,5 +1,14 @@
 @import "settings";
+
+
+
+@import "global";
+
+// Here we define the lower and upper bounds for each media size
+$topbar-media-query: "only screen and (min-width: 964px)";
+
 @import "foundation";
+@import "navigation";
 
 // Or selectively include components
 // @import

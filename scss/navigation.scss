@@ -1,0 +1,213 @@
+/** Changes background color, height and margin of the border **/
+.top-bar, .contain-to-grid, .top-bar-section, .top-bar-section ul li:hover:not(.has-form) > a, .top-bar-section li:not(.has-form) a:not(.button), .top-bar-section ul li > a, .top-bar-section li:not(.has-form) a:not(.button):hover {
+  background: none;
+
+}
+.top-bar-section li:not(.has-form) a:not(.button){
+  padding:0 !important;
+}
+
+
+.top-bar-section ul {
+  max-width: rem-calc(624px) !important;
+//  max-height: rem-calc(141px) !important;
+  background: url('../images/nav-main/nav-box.png') !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+
+  -webkit-background-size: contain !important;
+  -moz-background-size: contain !important;
+  -o-background-size: contain !important;
+
+  background-size: contain !important;
+  padding:12px;
+}
+
+.top-bar-section ul li a {
+  max-width:rem-calc(100px) !important;
+}
+
+
+//
+//.navigation-menu ul {
+//  margin: 0px !important;
+//}
+//
+//.nav li {
+//  list-style-type: none;
+//  display: inline;
+//  float: left;
+//  white-space: nowrap;
+//  overflow: hidden;
+//}
+//
+//
+//.nav > li > a {
+//  padding: rem-calc(10px) rem-calc(3px) !important;
+//
+//}
+//
+/* Grow Rotate */
+.grow-rotate {
+  /*display: inline-block;*/
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.selected {
+  -webkit-transform: scale(1.1) rotate(4deg) translate3d(0, 0, 0);
+  transform: scale(1.1) rotate(4deg) translate3d(0, 0, 0);
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.grow-rotate:hover:not(.selected), .grow-rotate:focus:not(.selected), .grow-rotate:active:not(.selected), .selected {
+  -webkit-transform: scale(1.1) rotate(4deg) translate3d(0, 0, 0);
+  transform: scale(1.1) rotate(4deg) translate3d(0, 0, 0);
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+//
+.orange {
+  background-image: url('../images/nav-main/icon-yellow--square.png');
+  background-repeat: no-repeat;
+  background-position: center;
+
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+
+  background-size: contain;
+}
+//
+.logo {
+
+  max-width: 100%;
+  position: relative;
+  z-index: 0;
+
+}
+//
+.gpl-home {
+  z-index: 1;
+  position: absolute;
+  float: left;
+  clear: both;
+
+  max-width: rem-calc(285px);
+  background-color: #15af4a;
+  height: 33px;
+  border-bottom: 5px solid #07964a;
+  border-right: 5px solid #07964a;
+  border-radius: 0 0 12px 12px;
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 0 10px 10px 10px;
+}
+
+
+.gpl-home:hover{
+
+  height: 50px;
+
+}
+.gpl-home:hover > a{
+
+  top:26px;
+
+}
+.gpl-home a{
+  position:relative;
+  top:8px;
+  color:#fff;
+  text-decoration:none;
+
+}
+
+
+@media only screen and (max-width: 963px) {
+  .grow-rotate {
+    /*display: inline-block;*/
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+
+  .selected {
+    -webkit-transform: scale(1) rotate(0deg) translate3d(0, 0, 0);
+    transform: scale(1) rotate(0deg) translate3d(0, 0, 0);
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+  }
+
+  .grow-rotate:hover:not(.selected), .grow-rotate:focus:not(.selected), .grow-rotate:active:not(.selected), .selected {
+    -webkit-transform: scale(1) rotate(0deg) translate3d(0, 0, 0);
+    transform: scale(1) rotate(0deg) translate3d(0, 0, 0);
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+  }
+
+  .grow-rotate:hover{
+    background-color:#f05627;
+  }
+
+
+
+
+
+
+
+  body{
+    background-color:blue;
+  }
+  .top-bar{
+    height: 145px;
+    top: 28px;
+  }
+
+  .top-bar .title-area {
+    background: url('../images/nav-main/nav-box.png') !important;
+  }
+  .top-bar-section ul{
+    background:none !important;
+    max-width:100% !important;
+    top: 90px;
+    position: relative;
+    height: 825px;
+
+  }
+  .top-bar-section ul li a {
+    max-width: 100% !important;
+  }
+  ul.right li{
+    width:100%;
+    height: 109px;
+    margin-bottom:12px;
+  }
+
+  ul.right li a{
+    height:125px;
+
+  }
+
+  ul.right li a p{
+    clear: both;
+    position: relative;
+    top: -85px;
+    font-size: 38px;
+    left: 150px;
+  }
+
+  .orange {
+    width:125px;
+  }
+}
