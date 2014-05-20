@@ -1,0 +1,98 @@
+
+
+#cloud-right {
+    float: right;
+    margin-right: -115px;
+}
+
+#cloud-left {
+    float: left;
+    top: 1118px;
+    left: -134px;
+}
+
+
+#grass{
+  position: relative;
+  z-index:1;
+//  float: left;
+//  left: -186px;
+  /* top: 218px; */
+  overflow: hidden;
+  height: 254px;
+  width: 1368px !important;
+  margin-left: -172px;
+}
+
+@media only screen and (max-width: 963px) {
+
+}
+
+#church{
+  position: absolute;
+  left: 14px;
+  bottom: 195px;
+  z-index:2;
+ }
+#house{
+  position: absolute;
+  z-index: 0;
+  bottom: 160px;
+  left: 508px;
+  /* text-align: right; */
+  max-width: 504px;
+
+
+  }
+
+  #tree1{
+    width: 168px;
+    height: 261px;
+    left:-120px;
+    position: absolute;
+    bottom: 95px;
+    z-index:2;
+  }
+
+  #tree2{
+    width: 168px;
+    height: 261px;
+    position: absolute;
+    bottom: 20px;
+    left: 14px;z-index:2;
+}
+
+#tree3{
+    width: 168px;
+    height: 261px;
+    position: absolute;
+  bottom: 95px;
+  right: 572px;z-index:2;
+}
+
+#tree4{
+  width: 168px;
+  height: 261px;
+  position: absolute;
+  z-index: 2;
+  /* float: right; */
+  right: 332px;
+  bottom: 0px;
+
+
+}
+
+
+
+.imagine #bottom-container {
+    width: 1000px;
+    position: relative;
+    margin:0 auto;
+}
+
+.imagine #background-footer{
+    position: relative;
+    float:left;
+    margin-top:-300px;
+    height:966px;
+}

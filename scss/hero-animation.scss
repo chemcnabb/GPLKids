@@ -1,0 +1,120 @@
+#superdude {
+    position: relative;
+max-width:287px;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-name: bob-float;
+    -webkit-animation-duration: 3s;
+
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+    /* Standard syntax */
+    animation-name: bob-float;
+    animation-duration: 3s;
+
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+
+#supergal {
+    position: relative;
+  max-width:350px;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-name: bob-float;
+    -webkit-animation-duration: 3s;
+
+    -webkit-animation-delay:-3s; /* Safari and Chrome */
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+    /* Standard syntax */
+    animation-name: bob-float;
+    animation-duration: 3s;
+    animation-delay:-3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+
+#supercat{
+    left:0;
+    position:absolute;
+    z-index:3;
+
+
+    /* Chrome, Safari, Opera */
+    -webkit-animation-name: super-fly;
+    -webkit-animation-duration: 10s;
+    /*-webkit-animation-delay:-7s; *//* Safari and Chrome */
+    -webkit-animation-iteration-count: infinite;
+    /*-webkit-animation-timing-function: linear;*/
+    -webkit-animation-play-state: running;
+    /* Standard syntax */
+    animation-name: super-fly;
+    animation-duration: 10s;
+
+    /*animation-delay:-7s;*/
+    animation-iteration-count: infinite;
+    /*animation-timing-function: linear;*/
+    animation-play-state: running;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes super-fly {
+    0% {
+        top:rem-calc(700px);
+        left: -130%;
+    }
+
+    100% {
+        top:rem-calc(1000px);
+        left: 180%;
+    }
+}
+
+/* Standard syntax */
+@keyframes super-fly {
+  0% {
+    top:rem-calc(700px);
+    left: -130%;
+  }
+
+  100% {
+    top:rem-calc(1000px);
+    left: 180%;
+  }
+}
+
+
+
+
+
+
+
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes bob-float {
+    0% {
+
+        top: 0;
+    }
+
+    100% {
+
+        top: rem-calc(25px);
+    }
+}
+
+/* Standard syntax */
+@keyframes bob-float {
+    0% {
+
+        top: 0;
+    }
+
+    100% {
+
+      top: rem-calc(25px);
+    }
+}

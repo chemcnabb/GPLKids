@@ -7,11 +7,9 @@
     <link rel="stylesheet" href="css/app.css"/>
     <script src="bower_components/modernizr/modernizr.js"></script>
 </head>
-<body>
-<div class="row">
+<body class="imagine">
+<div class="row" id="navigation">
     <div class="header large-12 columns contain-to-grid">
-
-
 
 
         <div class="gpl-home funt"><a href="#">GPL Main Library</a></div>
@@ -19,7 +17,7 @@
 
             <ul class="title-area">
                 <li class="name">
-                    <a href="#"><img src="images/logos/logo-gpl-kids.png"/></a>
+                    <a href="#" class=""><img src="images/logos/logo-gpl-kids.png"/></a>
                 </li>
                 <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
                 <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
@@ -81,196 +79,291 @@
                             <p>events</p>
                         </a>
                     </li>
-
                 </ul>
-
-
             </section>
         </nav>
-        <div class="large-3 medium-3 small-3 columns">
-            <div class="row">
-
-            </div>
-            <div class="row">
-                <div class="logo"></div>
-            </div>
-
-        </div>
-
-        <div class="large-9 medium-9 small-9 columns">
-            <div class="navigation-menu">
-                <ul class="nav funt">
-
-
-                </ul>
-            </div>
-        </div>
-
-
     </div>
 </div>
 
 <div class="row">
     <div class="large-12 columns">
-        <!--<div class="panel">-->
-            <!--<h3>We&rsquo;re stoked you want to try Foundation! </h3>-->
+        <div class="row">
+            <div class="large-12 medium-12 small-12 columns" id="background">
+                <div class="cloud" id="cloud-right"><img src="images/page-imagine/art-cloud2.png"></div>
+                <div class="cloud" id="cloud-left"><img src="images/page-imagine/art-cloud1.png"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="large-9 columns" id="midground">
+                <div class="large-5 medium-5 small-5 columns" id="supergal">
+                    <img src="images/page-imagine/char-supergirl.png"/>
+                </div>
 
-            <!--<p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or-->
-                <!--totally destroy to get going.</p>-->
+                <div class="large-4 medium-4 small-4 columns" id="superdude">
+                    <img src="images/page-imagine/char-superboy.png"/>
+                </div>
+                <div></div>
+            </div>
 
-            <!--<p>Once you've exhausted the fun in this document, you should check out:</p>-->
+        </div>
+        <div class="row off-canvas-wrap">
 
-            <!--<div class="row">-->
-                <!--<div class="large-4 medium-4 columns">-->
-                    <!--<p><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br/>Everything you need to-->
-                        <!--know about using the framework.</p>-->
-                <!--</div>-->
-                <!--<div class="large-4 medium-4 columns">-->
-                    <!--<p><a href="http://github.com/zurb/foundation">Foundation on Github</a><br/>Latest code, issue-->
-                        <!--reports, feature requests and more.</p>-->
-                <!--</div>-->
-                <!--<div class="large-4 medium-4 columns">-->
-                    <!--<p><a href="http://twitter.com/foundationzurb">@foundationzurb</a><br/>Ping us on Twitter if you-->
-                        <!--have questions. If you build something with this we'd love to see it (and send you a totally-->
-                        <!--boss sticker).</p>-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</div>-->
+                <div class="super-char" id="supercat">
+                    <img src="images/page-imagine/char-supercat.png"/>
+                </div>
+
+        </div>
     </div>
 </div>
 
 <div class="row">
-    <div class="large-8 medium-8 columns">
-        <!--<h5>Here&rsquo;s your basic grid:</h5>-->
-        <!--&lt;!&ndash; Grid Example &ndash;&gt;-->
+    <div class="large-12 columns">
+        <div class="large-2 medium-2 small-2 columns"></div>
+        <div id="tabs" class="large-10 medium-10 small-10 columns tab">
 
-        <!--<div class="row">-->
-            <!--<div class="large-12 columns">-->
-                <!--<div class="callout panel">-->
-                    <!--<p><strong>This is a twelve column section in a row.</strong> Each of these includes a div.panel-->
-                        <!--element so you can see where the columns are - it's not required at all for the grid.</p>-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</div>-->
-        <!--<div class="row">-->
-            <!--<div class="large-6 medium-6 columns">-->
-                <!--<div class="callout panel">-->
-                    <!--<p>Six columns</p>-->
-                <!--</div>-->
-            <!--</div>-->
-            <!--<div class="large-6 medium-6 columns">-->
-                <!--<div class="callout panel">-->
-                    <!--<p>Six columns</p>-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</div>-->
-        <!--<div class="row">-->
-            <!--<div class="large-4 medium-4 small-4 columns">-->
-                <!--<div class="callout panel">-->
-                    <!--<p>Four columns</p>-->
-                <!--</div>-->
-            <!--</div>-->
-            <!--<div class="large-4 medium-4 small-4 columns">-->
-                <!--<div class="callout panel">-->
-                    <!--<p>Four columns</p>-->
-                <!--</div>-->
-            <!--</div>-->
-            <!--<div class="large-4 medium-4 small-4 columns">-->
-                <!--<div class="callout panel">-->
-                    <!--<p>Four columns</p>-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</div>-->
+            <ul id='tab-heading' class="funt">
 
-        <!--<hr/>-->
+                <li><a href="#create" class="grow-rotate"><img src="images/page-imagine/icon-portal.png"/>
 
-        <!--<h5>We bet you&rsquo;ll need a form somewhere:</h5>-->
+                    <div>create</div>
+                </a></li>
+                <li><a href="#characters" class="selected grow-rotate"><img src="images/page-imagine/icon-portal.png"/>
 
-        <!--<form>-->
-            <!--<div class="row">-->
-                <!--<div class="large-12 columns">-->
-                    <!--<label>Input Label</label>-->
-                    <!--<input type="text" placeholder="large-12.columns"/>-->
-                <!--</div>-->
-            <!--</div>-->
-            <!--<div class="row">-->
-                <!--<div class="large-4 medium-4 columns">-->
-                    <!--<label>Input Label</label>-->
-                    <!--<input type="text" placeholder="large-4.columns"/>-->
-                <!--</div>-->
-                <!--<div class="large-4 medium-4 columns">-->
-                    <!--<label>Input Label</label>-->
-                    <!--<input type="text" placeholder="large-4.columns"/>-->
-                <!--</div>-->
-                <!--<div class="large-4 medium-4 columns">-->
-                    <!--<div class="row collapse">-->
-                        <!--<label>Input Label</label>-->
+                    <div>characters</div>
+                </a></li>
+                <li><a href="#portals" class="grow-rotate"><img src="images/page-imagine/icon-portal.png"/>
 
-                        <!--<div class="small-9 columns">-->
-                            <!--<input type="text" placeholder="small-9.columns"/>-->
-                        <!--</div>-->
-                        <!--<div class="small-3 columns">-->
-                            <!--<span class="postfix">.com</span>-->
-                        <!--</div>-->
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
-            <!--<div class="row">-->
-                <!--<div class="large-12 columns">-->
-                    <!--<label>Select Box</label>-->
-                    <!--<select>-->
-                        <!--<option value="husker">Husker</option>-->
-                        <!--<option value="starbuck">Starbuck</option>-->
-                        <!--<option value="hotdog">Hot Dog</option>-->
-                        <!--<option value="apollo">Apollo</option>-->
-                    <!--</select>-->
-                <!--</div>-->
-            <!--</div>-->
-            <!--<div class="row">-->
-                <!--<div class="large-6 medium-6 columns">-->
-                    <!--<label>Choose Your Favorite</label>-->
-                    <!--<input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio-->
-                    <!--1</label>-->
-                    <!--<input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio-->
-                    <!--2</label>-->
-                <!--</div>-->
-                <!--<div class="large-6 medium-6 columns">-->
-                    <!--<label>Check these out</label>-->
-                    <!--<input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>-->
-                    <!--<input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>-->
-                <!--</div>-->
-            <!--</div>-->
-            <!--<div class="row">-->
-                <!--<div class="large-12 columns">-->
-                    <!--<label>Textarea Label</label>-->
-                    <!--<textarea placeholder="small-12.columns"></textarea>-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</form>-->
+                    <div>portals</div>
+                </a></li>
+
+            </ul>
+
+            <span>
+
+                <div id="portals" style="display: block;" class="grid">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+
+                        <li></li>
+                        <li></li>
+                        <li></li>
+
+                        <li></li>
+                        <li></li>
+                        <li></li>
+
+                        <li></li>
+                        <li></li>
+                        <li></li>
+
+                        <li></li>
+                        <li></li>
+                        <li></li>
+
+                        <li></li>
+                        <li></li>
+                        <li></li>
+
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+
+                <div id="characters" style="display: block;" class="grid">
+                    <ul class="thumbs">
+                        <li>
+                            <a href="#">
+                                <img src="images/page-imagine/icon-portal.png"/>
+
+                                <div><span>Pipeline Portal</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/page-imagine/icon-portal.png"/>
+
+                                <div><span>Pipeline Portal</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/page-imagine/icon-portal.png"/>
+
+                                <div><span>Pipeline Portal</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/page-imagine/icon-portal.png"/>
+
+                                <div><span>Pipeline Portal</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/page-imagine/icon-portal.png"/>
+
+                                <div><span>Pipeline Portal</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/page-imagine/icon-portal.png"/>
+
+                                <div><span>Pipeline Portal</span></div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="create" style="display: block;" class="grid">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+
+            </span>
+
+            <div class="foot"></div>
+            <span><img src="images/textures/bottom-right-tabs-corner.png"/></span>
+        </div>
+        <div class="orange-square">
+            <ul><h1>Links 1</h1>
+                <li>link-one</li>
+                <li>two</li>
+                <li>three</li>
+                <li>four</li>
+                <li>five</li>
+            </ul>
+
+            <ul><h1>Links 2</h1>
+                <li>one</li>
+                <li>two</li>
+                <li>three</li>
+                <li>four</li>
+                <li>five</li>
+            </ul>
+
+            <ul><h1>Links 3</h1>
+                <li>one</li>
+                <li>two</li>
+                <li>three</li>
+                <li>four</li>
+                <li>five</li>
+            </ul>
+
+        </div>
     </div>
 
-    <div class="large-4 medium-4 columns">
-        <!--<h5>Try one of these buttons:</h5>-->
 
-        <!--<p><a href="#" class="small button">Simple Button</a><br/>-->
-            <!--<a href="#" class="small radius button">Radius Button</a><br/>-->
-            <!--<a href="#" class="small round button">Round Button</a><br/>-->
-            <!--<a href="#" class="medium success button">Success Btn</a><br/>-->
-            <!--<a href="#" class="medium alert button">Alert Btn</a><br/>-->
-            <!--<a href="#" class="medium secondary button">Secondary Btn</a></p>-->
 
-        <!--<div class="panel">-->
-            <!--<h5>So many components, girl!</h5>-->
 
-            <!--<p>A whole kitchen sink of goodies comes with Foundation. Checkout the docs to see them all, along with-->
-                <!--details on making them your own.</p>-->
-            <!--<a href="http://foundation.zurb.com/docs/" class="small button">Go to Foundation Docs</a>-->
-        <!--</div>-->
-    </div>
+
+
+
+
+
+
+    <footer class="row">
+        <div id="grass"
+            data-anchor-target="footer"
+            data-bottom-top="top:15px"
+            data-end="top:0px">
+            <img
+                    src="images/page-imagine/footer-grass.png"/></div>
+        <div class="large-12 medium-12 small-12">
+                <div id="house"
+                     data-anchor-target="footer"
+                     data-bottom-top="bottom:0px;"
+                     data-end="bottom:160px">
+                    <img
+                        src="images/page-imagine/footer-house.png"/></div>
+
+                <div id="church"
+                     data-anchor-target="footer"
+                     data-start="bottom:95px"
+                     data-end="bottom:190px">
+                    <img
+                        src="images/page-imagine/footer-ourlady1.png"/></div>
+
+
+                <div id="tree1"
+                     data-anchor-target="footer"
+                     data-start="top:80px"
+                     data-end="top:0px;">
+
+                    <img
+                        src="images/page-imagine/footer-tree1.png"/></div>
+                <div id="tree2"
+                    data-anchor-target="footer"
+                    data-start="top:182px;"
+                    data-end="top:-18px;">
+                    <img
+                        src="images/page-imagine/footer-tree1.png"/></div>
+                <div id="tree3"
+                     data-anchor-target="footer"
+                    data-bottom-top="bottom:0px;"
+                    data-end="bottom:95px;">
+                    <img
+                        src="images/page-imagine/footer-tree1.png"/></div>
+                <div id="tree4"
+                     data-anchor-target="footer"
+                     data-bottom-top="bottom:-60px"
+                     data-end="bottom:0px">
+                        <img
+                        src="images/page-imagine/footer-tree1.png"/></div>
+
+            </div>
+
+    </footer>
+
+
+
+
+
+
+
 </div>
 
+
+
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="scripts/vendor/jquery.hoverdir.js"></script>
+<script src="scripts/vendor/jquery.corner.js"></script>
+<script src="scripts/vendor/jquery.idTabs.min.js"></script>
+<script src="scripts/vendor/skrollr.js"></script>
+<script src="scripts/vendor/jqbrowser-compressed.js"></script>
 <script src="bower_components/foundation/js/foundation.min.js"></script>
+<script src="bower_components/foundation/js/foundation/foundation.topbar.js"></script>
+
+<script type="text/javascript">
+    $(window).load(function () {
+        var s = skrollr.init({
+            forceHeight: false
+        });
+        s.refresh(document.body);
+    });
+
+
+    $(' .thumbs > li ').each(function () {
+        $(this).hoverdir();
+    });
+
+
+    if ($.browser.msie()) {
+        $("html").addClass("ie");
+    } else {
+        $("html").addClass("not-ie");
+    }
+</script>
 <script src="js/app.js"></script>
 </body>
 </html>

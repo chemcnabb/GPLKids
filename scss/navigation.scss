@@ -1,3 +1,14 @@
+#navigation{
+  margin-top:-1px;
+}
+
+nav.top-bar.expanded{
+  height:945px;
+}
+
+nav.top-bar{
+  transition: height .3s ease-in-out;
+}
 /** Changes background color, height and margin of the border **/
 .top-bar, .contain-to-grid, .top-bar-section, .top-bar-section ul li:hover:not(.has-form) > a, .top-bar-section li:not(.has-form) a:not(.button), .top-bar-section ul li > a, .top-bar-section li:not(.has-form) a:not(.button):hover {
   background: none;
@@ -167,7 +178,7 @@
 
 
   body{
-    background-color:blue;
+//    background-color:blue;
   }
   .top-bar{
     height: 145px;
@@ -182,7 +193,7 @@
     max-width:100% !important;
     top: 90px;
     position: relative;
-    height: 825px;
+//    height: 825px;
 
   }
   .top-bar-section ul li a {

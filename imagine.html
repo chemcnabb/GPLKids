@@ -1,294 +1,351 @@
 <!doctype html>
-<html class="no-js">
+<html class="no-js" lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>GPL Kids</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width">
-    <link rel="shortcut icon" href="/favicon.ico">
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
-
-    <link rel="stylesheet" href="styles/main.css">
-
-
-    <script src="scripts/vendor/modernizr/modernizr.js"></script>
-    <script src="scripts/vendor/jquery/dist/jquery.js"></script>
-
-    <script src="scripts/vendor/jquery.hoverdir.js"></script>
-    <script src="scripts/vendor/jquery.corner.js"></script>
-    <script src="scripts/vendor/jquery.idTabs.min.js"></script>
-    <script src="scripts/vendor/skrollr.js"></script>
-    <script src="scripts/vendor/jqbrowser-compressed.js"></script>
+    <link rel="stylesheet" href="css/app.css"/>
+    <script src="bower_components/modernizr/modernizr.js"></script>
 </head>
 <body class="imagine">
-<!--[if lt IE 10]>
-<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
-    your browser</a> to improve your experience.</p>
-<![endif]-->
+<div class="row" id="navigation">
+    <div class="header large-12 columns contain-to-grid">
 
 
-<div class="container">
-    <div class="header">
-        <div class="navigation-menu">
-            <ul class="nav funt">
-                <li class="grow-rotate">
-                    <a href="index.html">
-                        <div class="orange square">
-                            <img id="home" src="images/nav-main/nav-home.png"/>
-                            <span>kids home</span>
-                        </div>
-                    </a>
-                </li>
-                <li class="selected grow-rotate">
-                    <a href="imagine.html">
-                        <div class="orange square">
-                            <img id="sun" src="images/nav-main/nav-imagine.png"/>
-                            <span>imagine</span>
-                        </div>
-                    </a>
-                </li>
-                <li class="grow-rotate">
-                    <a href="read.html">
-                        <div class="orange square">
-                            <img id="book" src="images/nav-main/nav-read.png"/>
-                            <span>read</span>
-                        </div>
-                    </a>
-                </li>
-                <li class="grow-rotate">
-                    <a href="learn.html">
-                        <div class="orange square">
-                            <img id="flower" src="images/nav-main/nav-learn.png"/>
-                            <span>learn</span>
-                        </div>
-                    </a>
-                </li>
-                <li class="grow-rotate">
-                    <a href="laugh.html">
-                        <div class="orange square">
-                            <img id="laugh" src="images/nav-main/nav-laugh.png"/>
-                            <span>laugh</span>
-                        </div>
-                    </a>
-                </li>
-                <li class="grow-rotate">
-                    <a href="events.html">
-                        <div class="event square">
-                            <img src="images/nav-main/nav-events-sm.png"/>
-                            <span>events</span>
-                        </div>
-                    </a>
-                </li>
-            </ul>
-        </div>
         <div class="gpl-home funt"><a href="#">GPL Main Library</a></div>
-        <div class="logo"><img src="images/logos/logo-gpl-kids.png"/></div>
-    </div>
-    <!-- END HEADER -->
+        <nav class="top-bar" data-topbar>
 
-    <!-- BODY CONTENT -->
+            <ul class="title-area">
+                <li class="name">
+                    <a href="#" class=""><img src="images/logos/logo-gpl-kids.png"/></a>
+                </li>
+                <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+                <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+            </ul>
 
-
-    <div id="background">
-
-        <div class="cloud" id="cloud-right"><img src="images/page-imagine/art-cloud2.png"></div>
-        <div class="cloud" id="cloud-left"><img src="images/page-imagine/art-cloud1.png"></div>
-    </div>
-
-
-    <div id="midground">
-        <div class="super-char" id="supergal">
-            <img src="images/page-imagine/char-supergirl.png"/>
-        </div>
-
-        <div class="super-char" id="superdude">
-            <img src="images/page-imagine/char-superboy.png"/>
-        </div>
-
-        <div class="super-char" id="supercat">
-            <img src="images/page-imagine/char-supercat.png"/>
-        </div>
-    </div>
-
-
-    <!-- END BODY CONTENT -->
-
-    <!-- force push bottom -->
-    <div class="push"></div>
-</div>
-
-<!-- FLOAT BOTTOM -->
-<div id="bottom-container">
-
-    <div id="tabs" class="tab">
-
-        <ul id='tab-heading' class="funt">
-
-            <li><a href="#create" class="grow-rotate"><img src="images/page-imagine/icon-portal.png"/>
-
-                <div>create</div>
-            </a></li>
-            <li><a href="#characters" class="selected grow-rotate"><img src="images/page-imagine/icon-portal.png"/>
-
-                <div>characters</div>
-            </a></li>
-            <li><a href="#portals" class="grow-rotate"><img src="images/page-imagine/icon-portal.png"/>
-
-                <div>portals</div>
-            </a></li>
-
-        </ul>
-
-        <span>
-
-            <div id="portals" style="display: block;" class="grid">
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-
-                    <li></li>
-                    <li></li>
-                    <li></li>
-
-                    <li></li>
-                    <li></li>
-                    <li></li>
-
-                    <li></li>
-                    <li></li>
-                    <li></li>
-
-                    <li></li>
-                    <li></li>
-                    <li></li>
-
-                    <li></li>
-                    <li></li>
-                    <li></li>
-
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div>
-
-            <div id="characters" style="display: block;" class="grid">
-                <ul class="thumbs">
-                    <li>
-                        <a href="#">
-                            <img src="images/page-imagine/icon-portal.png"/>
-
-                            <div><span>Pipeline Portal</span></div>
+            <section class="top-bar-section">
+                <!-- Right Nav Section -->
+                <ul class="right">
+                    <li class="grow-rotate">
+                        <a href="index.html">
+                            <div class="orange square">
+                                <img id="home" src="images/nav-main/nav-home.png"/>
+                            </div>
+                            <p>kids home</p>
                         </a>
                     </li>
-                    <li>
-                        <a href="#">
-                            <img src="images/page-imagine/icon-portal.png"/>
+                    <li class="grow-rotate">
+                        <a href="imagine.html">
+                            <div class="orange square">
+                                <img id="sun" src="images/nav-main/nav-imagine.png"/>
 
-                            <div><span>Pipeline Portal</span></div>
+                            </div>
+                            <p>imagine</p>
                         </a>
                     </li>
-                    <li>
-                        <a href="#">
-                            <img src="images/page-imagine/icon-portal.png"/>
+                    <li class="grow-rotate">
+                        <a href="read.html">
+                            <div class="orange square">
+                                <img id="book" src="images/nav-main/nav-read.png"/>
 
-                            <div><span>Pipeline Portal</span></div>
+                            </div>
+                            <p>read</p>
                         </a>
                     </li>
-                    <li>
-                        <a href="#">
-                            <img src="images/page-imagine/icon-portal.png"/>
+                    <li class="grow-rotate">
+                        <a href="learn.html">
+                            <div class="orange square">
+                                <img id="flower" src="images/nav-main/nav-learn.png"/>
 
-                            <div><span>Pipeline Portal</span></div>
+                            </div>
+                            <p>learn</p>
                         </a>
                     </li>
-                    <li>
-                        <a href="#">
-                            <img src="images/page-imagine/icon-portal.png"/>
+                    <li class="grow-rotate">
+                        <a href="laugh.html">
+                            <div class="orange square">
+                                <img id="laugh" src="images/nav-main/nav-laugh.png"/>
 
-                            <div><span>Pipeline Portal</span></div>
+                            </div>
+                            <p>laugh</p>
                         </a>
                     </li>
-                    <li>
-                        <a href="#">
-                            <img src="images/page-imagine/icon-portal.png"/>
+                    <li class="grow-rotate">
+                        <a href="events.html" class="events">
+                            <div class="event square">
+                                <img src="images/nav-main/nav-events.png"/>
 
-                            <div><span>Pipeline Portal</span></div>
+                            </div>
+                            <p>events</p>
                         </a>
                     </li>
                 </ul>
-            </div>
-
-            <div id="create" style="display: block;" class="grid">
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div>
-
-        </span>
-
-        <div class="foot"></div>
-        <span><img src="images/textures/bottom-right-tabs-corner.png"/></span>
-    </div>
-
-    <div class="orange-square">
-        <ul><h1>Links 1</h1>
-            <li>link-one</li>
-            <li>two</li>
-            <li>three</li>
-            <li>four</li>
-            <li>five</li>
-        </ul>
-
-        <ul><h1>Links 2</h1>
-            <li>one</li>
-            <li>two</li>
-            <li>three</li>
-            <li>four</li>
-            <li>five</li>
-        </ul>
-
-        <ul><h1>Links 3</h1>
-            <li>one</li>
-            <li>two</li>
-            <li>three</li>
-            <li>four</li>
-            <li>five</li>
-        </ul>
-
-    </div>
-
-    <div id="background-footer">
-        <div id="house" data-anchor-target="#background-footer" data-bottom-top="top:660px" data-end="top:490px"><img
-                src="images/page-imagine/footer-house.png"/></div>
-        <div id="grass" data-anchor-target="#background-footer" data-bottom-top="top:395px" data-end="top:395px"><img
-                src="images/page-imagine/footer-grass.png"/></div>
-        <div id="church" data-anchor-target="#background-footer" data-bottom-top="top:-282px" data-end="top:-432px"><img
-                src="images/page-imagine/footer-ourlady1.png"/></div>
-
-
-        <div id="tree1" data-anchor-target="#background-footer" data-bottom-top="top:100px" data-end="top:0px;"><img
-                src="images/page-imagine/footer-tree1.png"/></div>
-        <div id="tree2" data-anchor-target="#background-footer" data-bottom-top="top:182px;" data-end="top:-18px;"><img
-                src="images/page-imagine/footer-tree1.png"/></div>
-        <div id="tree3" data-anchor-target="#background-footer" data-bottom-top="top:356px;" data-end="top:70px;"><img
-                src="images/page-imagine/footer-tree1.png"/></div>
-        <div id="tree4" data-anchor-target="#background-footer" data-bottom-top="top:102px" data-end="top:-207px;"><img
-                src="images/page-imagine/footer-tree1.png"/></div>
-
+            </section>
+        </nav>
     </div>
 </div>
 
+<div class="row">
+    <div class="large-12 columns">
+        <div class="row">
+            <div class="large-12 medium-12 small-12 columns" id="background">
+                <div class="cloud" id="cloud-right"><img src="images/page-imagine/art-cloud2.png"></div>
+                <div class="cloud" id="cloud-left"><img src="images/page-imagine/art-cloud1.png"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="large-9 columns" id="midground">
+                <div class="large-5 medium-5 small-5 columns" id="supergal">
+                    <img src="images/page-imagine/char-supergirl.png"/>
+                </div>
+
+                <div class="large-4 medium-4 small-4 columns" id="superdude">
+                    <img src="images/page-imagine/char-superboy.png"/>
+                </div>
+                <div></div>
+            </div>
+
+        </div>
+        <div class="row off-canvas-wrap">
+
+                <div class="super-char" id="supercat">
+                    <img src="images/page-imagine/char-supercat.png"/>
+                </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="large-12 columns">
+        <div class="large-2 medium-2 small-2 columns"></div>
+        <div id="tabs" class="large-10 medium-10 small-10 columns tab">
+
+            <ul id='tab-heading' class="funt">
+
+                <li><a href="#create" class="grow-rotate"><img src="images/page-imagine/icon-portal.png"/>
+
+                    <div>create</div>
+                </a></li>
+                <li><a href="#characters" class="selected grow-rotate"><img src="images/page-imagine/icon-portal.png"/>
+
+                    <div>characters</div>
+                </a></li>
+                <li><a href="#portals" class="grow-rotate"><img src="images/page-imagine/icon-portal.png"/>
+
+                    <div>portals</div>
+                </a></li>
+
+            </ul>
+
+            <span>
+
+                <div id="portals" style="display: block;" class="grid">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+
+                        <li></li>
+                        <li></li>
+                        <li></li>
+
+                        <li></li>
+                        <li></li>
+                        <li></li>
+
+                        <li></li>
+                        <li></li>
+                        <li></li>
+
+                        <li></li>
+                        <li></li>
+                        <li></li>
+
+                        <li></li>
+                        <li></li>
+                        <li></li>
+
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+
+                <div id="characters" style="display: block;" class="grid">
+                    <ul class="thumbs">
+                        <li>
+                            <a href="#">
+                                <img src="images/page-imagine/icon-portal.png"/>
+
+                                <div><span>Pipeline Portal</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/page-imagine/icon-portal.png"/>
+
+                                <div><span>Pipeline Portal</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/page-imagine/icon-portal.png"/>
+
+                                <div><span>Pipeline Portal</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/page-imagine/icon-portal.png"/>
+
+                                <div><span>Pipeline Portal</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/page-imagine/icon-portal.png"/>
+
+                                <div><span>Pipeline Portal</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/page-imagine/icon-portal.png"/>
+
+                                <div><span>Pipeline Portal</span></div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="create" style="display: block;" class="grid">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+
+            </span>
+
+            <div class="foot"></div>
+            <span><img src="images/textures/bottom-right-tabs-corner.png"/></span>
+        </div>
+        <div class="orange-square">
+            <ul><h1>Links 1</h1>
+                <li>link-one</li>
+                <li>two</li>
+                <li>three</li>
+                <li>four</li>
+                <li>five</li>
+            </ul>
+
+            <ul><h1>Links 2</h1>
+                <li>one</li>
+                <li>two</li>
+                <li>three</li>
+                <li>four</li>
+                <li>five</li>
+            </ul>
+
+            <ul><h1>Links 3</h1>
+                <li>one</li>
+                <li>two</li>
+                <li>three</li>
+                <li>four</li>
+                <li>five</li>
+            </ul>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <footer class="row">
+        <div id="grass"
+            data-anchor-target="footer"
+            data-bottom-top="top:15px"
+            data-end="top:0px">
+            <img
+                    src="images/page-imagine/footer-grass.png"/></div>
+        <div class="large-12 medium-12 small-12">
+                <div id="house"
+                     data-anchor-target="footer"
+                     data-bottom-top="bottom:0px;"
+                     data-end="bottom:160px">
+                    <img
+                        src="images/page-imagine/footer-house.png"/></div>
+
+                <div id="church"
+                     data-anchor-target="footer"
+                     data-start="bottom:95px"
+                     data-end="bottom:190px">
+                    <img
+                        src="images/page-imagine/footer-ourlady1.png"/></div>
+
+
+                <div id="tree1"
+                     data-anchor-target="footer"
+                     data-start="top:80px"
+                     data-end="top:0px;">
+
+                    <img
+                        src="images/page-imagine/footer-tree1.png"/></div>
+                <div id="tree2"
+                    data-anchor-target="footer"
+                    data-start="top:182px;"
+                    data-end="top:-18px;">
+                    <img
+                        src="images/page-imagine/footer-tree1.png"/></div>
+                <div id="tree3"
+                     data-anchor-target="footer"
+                    data-bottom-top="bottom:0px;"
+                    data-end="bottom:95px;">
+                    <img
+                        src="images/page-imagine/footer-tree1.png"/></div>
+                <div id="tree4"
+                     data-anchor-target="footer"
+                     data-bottom-top="bottom:-60px"
+                     data-end="bottom:0px">
+                        <img
+                        src="images/page-imagine/footer-tree1.png"/></div>
+
+            </div>
+
+    </footer>
+
+
+
+
+
+
+
+</div>
+
+
+
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="scripts/vendor/jquery.hoverdir.js"></script>
+<script src="scripts/vendor/jquery.corner.js"></script>
+<script src="scripts/vendor/jquery.idTabs.min.js"></script>
+<script src="scripts/vendor/skrollr.js"></script>
+<script src="scripts/vendor/jqbrowser-compressed.js"></script>
+<script src="bower_components/foundation/js/foundation.min.js"></script>
+<script src="bower_components/foundation/js/foundation/foundation.topbar.js"></script>
 <script src="scripts/main.js"></script>
 <script type="text/javascript">
-    $(window).load(function() {
+    $(window).load(function () {
         var s = skrollr.init({
             forceHeight: false
         });
@@ -307,9 +364,6 @@
         $("html").addClass("not-ie");
     }
 </script>
-
-
-
-
+<script src="js/app.js"></script>
 </body>
 </html>
