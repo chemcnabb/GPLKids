@@ -3,8 +3,8 @@
 }
 
 nav.top-bar.expanded{
-  height:945px;
-  background-color: #648FCF;
+  height: 945px;
+  background-color: #648fcf;
 }
 
 nav.top-bar{
@@ -143,7 +143,7 @@ nav.top-bar{
 
 
 @media only screen and (max-width: 963px) {
-  .grow-rotate {
+.top-bar-section .grow-rotate {
     /*display: inline-block;*/
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
@@ -153,22 +153,22 @@ nav.top-bar{
     transform: translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   }
-
-  .selected {
+//
+  .top-bar-section .selected {
+    -webkit-transform: scale(1) rotate(0deg) translate3d(0, 0, 0);
+    transform: scale(1) rotate(0deg) translate3d(0, 0, 0);
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+  }
+//
+  .top-bar-section .grow-rotate:hover:not(.selected), .top-bar-section .grow-rotate:focus:not(.selected), .top-bar-section .grow-rotate:active:not(.selected), .top-bar-section .selected {
     -webkit-transform: scale(1) rotate(0deg) translate3d(0, 0, 0);
     transform: scale(1) rotate(0deg) translate3d(0, 0, 0);
     -webkit-font-smoothing: antialiased;
     font-smoothing: antialiased;
   }
 
-  .grow-rotate:hover:not(.selected), .grow-rotate:focus:not(.selected), .grow-rotate:active:not(.selected), .selected {
-    -webkit-transform: scale(1) rotate(0deg) translate3d(0, 0, 0);
-    transform: scale(1) rotate(0deg) translate3d(0, 0, 0);
-    -webkit-font-smoothing: antialiased;
-    font-smoothing: antialiased;
-  }
-
-  .grow-rotate:hover{
+  .header .grow-rotate:hover{
     background-color:#f05627;
   }
 

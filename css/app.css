@@ -4923,7 +4923,7 @@ nav.top-bar {
   text-decoration: none; }
 
 @media only screen and (max-width: 963px) {
-  .grow-rotate {
+  .top-bar-section .grow-rotate {
     /*display: inline-block;*/
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
@@ -4932,17 +4932,17 @@ nav.top-bar {
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0); }
-  .selected {
+  .top-bar-section .selected {
     -webkit-transform: scale(1) rotate(0deg) translate3d(0, 0, 0);
     transform: scale(1) rotate(0deg) translate3d(0, 0, 0);
     -webkit-font-smoothing: antialiased;
     font-smoothing: antialiased; }
-  .grow-rotate:hover:not(.selected), .grow-rotate:focus:not(.selected), .grow-rotate:active:not(.selected), .selected {
+  .top-bar-section .grow-rotate:hover:not(.selected), .top-bar-section .grow-rotate:focus:not(.selected), .top-bar-section .grow-rotate:active:not(.selected), .top-bar-section .selected {
     -webkit-transform: scale(1) rotate(0deg) translate3d(0, 0, 0);
     transform: scale(1) rotate(0deg) translate3d(0, 0, 0);
     -webkit-font-smoothing: antialiased;
     font-smoothing: antialiased; }
-  .grow-rotate:hover {
+  .header .grow-rotate:hover {
     background-color: #f05627; }
   .top-bar {
     height: 145px;
@@ -5077,6 +5077,7 @@ nav.top-bar {
   left: 0;
   position: absolute;
   z-index: 3;
+  width: 319px;
   /* Chrome, Safari, Opera */
   -webkit-animation-name: super-fly;
   -webkit-animation-duration: 10s;
