@@ -5370,3 +5370,480 @@ ul#tab-heading li a div {
   margin: 0 -500px;
   width: 2000px;
   top: 465px; }
+
+.laugh #background {
+  top: -143px; }
+
+#undersea {
+  float: right; }
+
+.laugh #bottom-container {
+  width: 1000px;
+  margin: 0 auto; }
+
+#art-bridge {
+  margin-left: -500px;
+  margin-right: -500px; }
+
+.bg-wave {
+  background-image: url(../images/page-laugh/art-wave.png);
+  position: relative;
+  margin-left: -500px;
+  margin-right: -500px;
+  margin-top: 84px; }
+
+#chest {
+  top: 215px;
+  position: relative;
+  float: left;
+  left: 130px; }
+
+#octopus {
+  position: relative;
+  float: right;
+  top: 425px;
+  right: 244px;
+  z-index: 2;
+  width: 817px;
+  height: 628px; }
+
+#octo {
+  z-index: 1;
+  position: relative; }
+
+#octo-eye-white {
+  background-color: white;
+  width: 116px;
+  height: 100px;
+  position: relative;
+  bottom: 450px;
+  left: 364px; }
+
+#octo-eyes {
+  position: absolute;
+  top: 220px;
+  z-index: 0;
+  /* Chrome, Safari, Opera */
+  -webkit-animation-name: reading-eyes;
+  -webkit-animation-duration: 2s;
+  /*-webkit-animation-delay:-7s; */
+  /* Safari and Chrome */
+  -webkit-animation-iteration-count: infinite;
+  /*-webkit-animation-timing-function: linear;*/
+  -webkit-animation-play-state: running;
+  /* Standard syntax */
+  animation-name: reading-eyes;
+  animation-duration: 2s;
+  /*animation-delay:-7s;*/
+  animation-iteration-count: infinite;
+  /*animation-timing-function: linear;*/
+  animation-play-state: running; }
+
+@-webkit-keyframes reading-eyes {
+  0% {
+    left: 390px; }
+
+  50% {
+    left: 380px; }
+
+  100% {
+    left: 390px; } }
+
+@keyframes reading-eyes {
+  0% {
+    left: 390px; }
+
+  50% {
+    left: 380px; }
+
+  100% {
+    left: 390px; } }
+
+#mermaid {
+  position: relative;
+  bottom: -310px;
+  left: 335px;
+  float: left;
+  /* bottom: 0; */
+  z-index: 2;
+  height: 550px;
+  width: 810px;
+  overflow: hidden; }
+
+#mer {
+  top: 50px;
+  position: absolute;
+  z-index: 100;
+  left: 300px; }
+
+#mermaid-hair {
+  z-index: 0;
+  position: absolute;
+  left: 380px;
+  top: 10px;
+  /* Chrome, Safari, Opera */
+  -webkit-animation-name: mer-hair;
+  -webkit-animation-duration: 5s;
+  /*-webkit-animation-delay:-7s; */
+  /* Safari and Chrome */
+  -webkit-animation-iteration-count: infinite;
+  /*-webkit-animation-timing-function: linear;*/
+  -webkit-animation-play-state: running;
+  /* Standard syntax */
+  animation-name: mer-hair;
+  animation-duration: 5s;
+  /*animation-delay:-7s;*/
+  animation-iteration-count: infinite;
+  /*animation-timing-function: linear;*/
+  animation-play-state: running; }
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mer-hair {
+  0% {
+    transform: rotate(2deg);
+    transform-origin: 20% 40%;
+    -ms-transform: rotate(2deg);
+    /* IE 9 */
+    -ms-transform-origin: 20% 40%;
+    /* IE 9 */
+    -webkit-transform: rotate(2deg);
+    /* Chrome, Safari, Opera */
+    -webkit-transform-origin: 20% 40%;
+    /* Chrome, Safari, Opera */ }
+
+  50% {
+    transform: rotate(-2deg);
+    transform-origin: 20% 40%;
+    -ms-transform: rotate(-2deg);
+    /* IE 9 */
+    -ms-transform-origin: 20% 40%;
+    /* IE 9 */
+    -webkit-transform: rotate(-2deg);
+    /* Chrome, Safari, Opera */
+    -webkit-transform-origin: 20% 40%;
+    /* Chrome, Safari, Opera */ }
+
+  100% {
+    transform: rotate(2deg);
+    transform-origin: 20% 40%;
+    -ms-transform: rotate(2deg);
+    /* IE 9 */
+    -ms-transform-origin: 20% 40%;
+    /* IE 9 */
+    -webkit-transform: rotate(2deg);
+    /* Chrome, Safari, Opera */
+    -webkit-transform-origin: 20% 40%;
+    /* Chrome, Safari, Opera */ } }
+
+#fish-top {
+  position: relative;
+  z-index: 100;
+  top: 428px;
+  left: 74px;
+  /* Chrome, Safari, Opera */
+  -webkit-animation-name: fish-bob;
+  -webkit-animation-duration: 0.5s;
+  /*-webkit-animation-delay:-7s; */
+  /* Safari and Chrome */
+  -webkit-animation-iteration-count: infinite;
+  /*-webkit-animation-timing-function: linear;*/
+  -webkit-animation-play-state: running;
+  /* Standard syntax */
+  animation-name: fish-bob;
+  animation-duration: 0.5s;
+  /*animation-delay:-7s;*/
+  animation-iteration-count: infinite;
+  /*animation-timing-function: linear;*/
+  animation-play-state: running; }
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes fish-bob {
+  0% {
+    top: 520px; }
+
+  50% {
+    top: 528px; }
+
+  100% {
+    top: 520px; } }
+
+@-webkit-keyframes fish-zag {
+  0% {
+    left: 74px; }
+
+  50% {
+    left: 64px; }
+
+  100% {
+    left: 74px; } }
+
+@keyframes fish-zag {
+  0% {
+    left: 74px; }
+
+  50% {
+    left: 64px; }
+
+  100% {
+    left: 74px; } }
+
+/* Standard syntax */
+@keyframes fish-bob {
+  0% {
+    top: 520px; }
+
+  50% {
+    top: 528px; }
+
+  100% {
+    top: 520px; } }
+
+#fish-bottom {
+  position: relative;
+  z-index: 100;
+  float: left;
+  width: 102px;
+  height: 115px;
+  top: 0px;
+  /* Chrome, Safari, Opera */
+  -webkit-animation-name: bottom-fish-zag;
+  -webkit-animation-duration: 0.5s;
+  /*-webkit-animation-delay:-7s; */
+  /* Safari and Chrome */
+  -webkit-animation-iteration-count: infinite;
+  /*-webkit-animation-timing-function: linear;*/
+  -webkit-animation-play-state: running;
+  /* Standard syntax */
+  animation-name: bottom-fish-zag;
+  animation-duration: 0.5s;
+  /*animation-delay:-7s;*/
+  animation-iteration-count: infinite;
+  /*animation-timing-function: linear;*/
+  animation-play-state: running; }
+
+@-webkit-keyframes bottom-fish-zag {
+  0% {
+    left: 585px; }
+
+  50% {
+    left: 575px; }
+
+  100% {
+    left: 585px; } }
+
+@keyframes bottom-fish-zag {
+  0% {
+    left: 585px; }
+
+  50% {
+    left: 575px; }
+
+  100% {
+    left: 585px; } }
+
+#sand {
+  margin-bottom: -4px;
+  z-index: 1;
+  position: relative; }
+
+#duck {
+  position: absolute;
+  /* float: right; */
+  left: 777px;
+  top: 225px;
+  /* Chrome, Safari, Opera */
+  -webkit-animation-name: duck-animation;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-play-state: running;
+  animation-name: duck-animation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-play-state: running; }
+
+@-webkit-keyframes duck-animation {
+  0% {
+    top: 350px; }
+
+  25% {
+    top: 345px; }
+
+  50% {
+    top: 350px; }
+
+  70% {
+    top: 345px; }
+
+  100% {
+    top: 350px; } }
+
+@keyframes duck-animation {
+  0% {
+    top: 350px; }
+
+  25% {
+    top: 345px; }
+
+  50% {
+    top: 350px; }
+
+  70% {
+    top: 345px; }
+
+  100% {
+    top: 350px; } }
+
+#canoe-container {
+  position: absolute;
+  /* float: left; */
+  left: -73px;
+  top: 21px;
+  /*width: 1000px;*/
+  /*height: 400px;*/
+  /*overflow: hidden;*/
+  /* Chrome, Safari, Opera */
+  -webkit-animation-name: boat-animation;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-play-state: running;
+  animation-name: boat-animation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-play-state: running; }
+
+@-webkit-keyframes boat-animation {
+  0% {
+    top: 90px; }
+
+  25% {
+    top: 100px; }
+
+  50% {
+    top: 90px; }
+
+  70% {
+    top: 100px; }
+
+  100% {
+    top: 90px; } }
+
+@keyframes boat-animation {
+  0% {
+    top: 90px; }
+
+  25% {
+    top: 100px; }
+
+  50% {
+    top: 90px; }
+
+  70% {
+    top: 100px; }
+
+  100% {
+    top: 90px; } }
+
+#girl-eyes {
+  position: absolute;
+  /* float: left; */
+  left: 296px;
+  top: 107px;
+  z-index: 0;
+  background-color: white;
+  padding: 25px 3px 20px 15px; }
+
+#boy-eyes {
+  position: absolute;
+  /* float: left; */
+  left: 558px;
+  top: 111px;
+  z-index: 0;
+  background-color: white;
+  padding: 24px 0px 20px 15px; }
+
+#doggy-head {
+  position: absolute;
+  /* float: left; */
+  left: 414px;
+  top: 217px;
+  z-index: 10; }
+
+#canoe {
+  position: absolute; }
+
+/* WEEDS */
+#weeds {
+  position: absolute;
+  /*z-index: 10;*/
+  top: 500px;
+  width: 100%;
+  text-align: right;
+  /* float: right; */
+  right: 400px;
+  /* overflow: hidden; */
+  /* bottom: 0px; */ }
+
+#weed1-green {
+  position: relative;
+  /*bottom: 623px;*/
+  float: right; }
+
+#weed1-blue {
+  position: relative;
+  /*bottom: 623px;*/
+  float: right; }
+
+#weed1-purple {
+  position: relative;
+  left: 995px;
+  bottom: 57px;
+  float: left; }
+
+#weed2-purple {
+  position: relative;
+  right: 260px;
+  bottom: -36px;
+  float: right; }
+
+#weed2-green {
+  position: relative;
+  left: 840px;
+  bottom: 10px;
+  float: left; }
+
+#weed2-blue {
+  left: 1300px;
+  bottom: -70px;
+  float: left;
+  /* top: 17px; */
+  position: relative; }
+
+/* ROCKS */
+#rocks {
+  position: absolute;
+  text-align: right;
+  bottom: 210px;
+  left: 135px;
+  z-index: 10;
+  width: 1000px; }
+
+#rocks1 {
+  position: relative;
+  left: -148px;
+  top: -20px; }
+
+#rocks2 {
+  position: relative;
+  left: -40px;
+  top: -58px; }
+
+#rocks4 {
+  left: 417px;
+  top: 90px;
+  position: relative;
+  z-index: 0; }
+
+#rocks5 {
+  position: relative;
+  left: 663px;
+  top: 85px; }
