@@ -12,3 +12,22 @@ $("#tabs").idTabs(function (id, list, set) {
 $( "#tab-heading").find("a" ).click(function( event ) {
     event.preventDefault();
 });
+
+$(window).load(function () {
+    var s = skrollr.init({
+        forceHeight: false
+    });
+    s.refresh(document.body);
+});
+
+
+$(' .thumbs > li ').each(function () {
+    $(this).hoverdir();
+});
+
+
+if ($.browser.msie()) {
+    $("html").addClass("ie");
+} else {
+    $("html").addClass("not-ie");
+}
