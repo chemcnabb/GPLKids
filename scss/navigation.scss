@@ -18,8 +18,12 @@ nav.top-bar{
 .top-bar-section li:not(.has-form) a:not(.button){
   padding:0 !important;
 }
-
-
+.event{
+  float:left;
+}
+.top-bar-section ul li{
+  text-align:center;
+}
 .top-bar-section ul {
   max-width: rem-calc(624px) !important;
 //  max-height: rem-calc(141px) !important;
@@ -219,6 +223,7 @@ nav.top-bar{
     top: -85px;
     font-size: 38px;
     left: 150px;
+    text-align:left;
   }
 
   .orange {

@@ -26,10 +26,13 @@
     top: 3px;
 }
 ul#tab-heading {
-    position:absolute;
-    text-align: center;
-    max-width: 675px;
-  margin-left:10px;
+  position: absolute;
+  text-align: center;
+  max-width: 675px;
+  right: 0px;
+  /* margin-right: 10px; */
+  /* float: left; */
+  /* clear: both; */
 }
 
 ul#tab-heading li {
@@ -161,7 +164,7 @@ ul#tab-heading li a div{
     font-family: arial, sans-serif;
     color: #fff;
     padding: 12px 0 0 12px;
-    margin: 0 0 12px 0;
+  margin: 0 50px 12px 0;
     float: left;
     max-width: 213px;
 }
@@ -171,8 +174,9 @@ ul#tab-heading li a div{
 }
 
 .orange-square ul h1{
-     margin-bottom:12px;
-     font-weight:bold;
+  margin-bottom: 12px;
+  font-weight: bold;
+  color: #fff;
  }
 .orange-square ul:not(:first-child) h1{
     position:relative;

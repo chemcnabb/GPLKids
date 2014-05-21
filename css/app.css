@@ -4827,6 +4827,12 @@ nav.top-bar {
 .top-bar-section li:not(.has-form) a:not(.button) {
   padding: 0 !important; }
 
+.event {
+  float: left; }
+
+.top-bar-section ul li {
+  text-align: center; }
+
 .top-bar-section ul {
   max-width: 39rem !important;
   background: url('../images/nav-main/nav-box.png') !important;
@@ -4952,7 +4958,8 @@ nav.top-bar {
     position: relative;
     top: -85px;
     font-size: 38px;
-    left: 150px; }
+    left: 150px;
+    text-align: left; }
   .orange {
     width: 125px; } }
 
@@ -5113,6 +5120,282 @@ nav.top-bar {
   100% {
     top: 1.5625rem; } }
 
+#char-face {
+  /* Chrome, Safari, Opera */
+  -webkit-animation-name: char-face-rotate;
+  -webkit-animation-duration: 2s;
+  /*-webkit-animation-delay:-7s; */
+  /* Safari and Chrome */
+  -webkit-animation-iteration-count: infinite;
+  /*-webkit-animation-timing-function: linear;*/
+  -webkit-animation-play-state: running;
+  /* Standard syntax */
+  animation-name: char-face-rotate;
+  animation-duration: 2s;
+  /*animation-delay:-7s;*/
+  animation-iteration-count: infinite;
+  /*animation-timing-function: linear;*/
+  animation-play-state: running; }
+
+#char-girl {
+  /* Chrome, Safari, Opera */
+  -webkit-animation-name: char-girl-swing;
+  -webkit-animation-duration: 5s;
+  /*-webkit-animation-delay:-7s; */
+  /* Safari and Chrome */
+  -webkit-animation-iteration-count: infinite;
+  /*-webkit-animation-timing-function: linear;*/
+  -webkit-animation-play-state: running;
+  /* Standard syntax */
+  animation-name: char-girl-swing;
+  animation-duration: 5s;
+  /*animation-delay:-7s;*/
+  animation-iteration-count: infinite;
+  /*animation-timing-function: linear;*/
+  animation-play-state: running; }
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes char-face-rotate {
+  0% {
+    transform: rotate(2deg);
+    transform-origin: 20% 40%;
+    -ms-transform: rotate(2deg);
+    /* IE 9 */
+    -ms-transform-origin: 20% 40%;
+    /* IE 9 */
+    -webkit-transform: rotate(2deg);
+    /* Chrome, Safari, Opera */
+    -webkit-transform-origin: 20% 40%;
+    /* Chrome, Safari, Opera */ }
+
+  50% {
+    transform: rotate(-2deg);
+    transform-origin: 20% 40%;
+    -ms-transform: rotate(-2deg);
+    /* IE 9 */
+    -ms-transform-origin: 20% 40%;
+    /* IE 9 */
+    -webkit-transform: rotate(-2deg);
+    /* Chrome, Safari, Opera */
+    -webkit-transform-origin: 20% 40%;
+    /* Chrome, Safari, Opera */ }
+
+  100% {
+    transform: rotate(2deg);
+    transform-origin: 20% 40%;
+    -ms-transform: rotate(2deg);
+    /* IE 9 */
+    -ms-transform-origin: 20% 40%;
+    /* IE 9 */
+    -webkit-transform: rotate(2deg);
+    /* Chrome, Safari, Opera */
+    -webkit-transform-origin: 20% 40%;
+    /* Chrome, Safari, Opera */ } }
+
+@keyframes char-face-rotate {
+  0% {
+    transform: rotate(2deg);
+    transform-origin: 20% 40%;
+    -ms-transform: rotate(2deg);
+    /* IE 9 */
+    -ms-transform-origin: 20% 40%;
+    /* IE 9 */
+    -webkit-transform: rotate(2deg);
+    /* Chrome, Safari, Opera */
+    -webkit-transform-origin: 20% 40%;
+    /* Chrome, Safari, Opera */ }
+
+  50% {
+    transform: rotate(-2deg);
+    transform-origin: 20% 40%;
+    -ms-transform: rotate(-2deg);
+    /* IE 9 */
+    -ms-transform-origin: 20% 40%;
+    /* IE 9 */
+    -webkit-transform: rotate(-2deg);
+    /* Chrome, Safari, Opera */
+    -webkit-transform-origin: 20% 40%;
+    /* Chrome, Safari, Opera */ }
+
+  100% {
+    transform: rotate(2deg);
+    transform-origin: 20% 40%;
+    -ms-transform: rotate(2deg);
+    /* IE 9 */
+    -ms-transform-origin: 20% 40%;
+    /* IE 9 */
+    -webkit-transform: rotate(2deg);
+    /* Chrome, Safari, Opera */
+    -webkit-transform-origin: 20% 40%;
+    /* Chrome, Safari, Opera */ } }
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes char-girl-swing {
+  0% {
+    transform: rotate(4deg);
+    transform-origin: 20% 40%;
+    -ms-transform: rotate(4deg);
+    /* IE 9 */
+    -ms-transform-origin: 20% 40%;
+    /* IE 9 */
+    -webkit-transform: rotate(4deg);
+    /* Chrome, Safari, Opera */
+    -webkit-transform-origin: 20% 40%;
+    /* Chrome, Safari, Opera */ }
+
+  50% {
+    transform: rotate(-4deg);
+    transform-origin: 20% 40%;
+    -ms-transform: rotate(-4deg);
+    /* IE 9 */
+    -ms-transform-origin: 20% 40%;
+    /* IE 9 */
+    -webkit-transform: rotate(-4deg);
+    /* Chrome, Safari, Opera */
+    -webkit-transform-origin: 20% 40%;
+    /* Chrome, Safari, Opera */ }
+
+  100% {
+    transform: rotate(4deg);
+    transform-origin: 20% 40%;
+    -ms-transform: rotate(4deg);
+    /* IE 9 */
+    -ms-transform-origin: 20% 40%;
+    /* IE 9 */
+    -webkit-transform: rotate(4deg);
+    /* Chrome, Safari, Opera */
+    -webkit-transform-origin: 20% 40%;
+    /* Chrome, Safari, Opera */ } }
+
+@keyframes char-girl-swing {
+  0% {
+    transform: rotate(4deg);
+    transform-origin: 20% 40%;
+    -ms-transform: rotate(4deg);
+    /* IE 9 */
+    -ms-transform-origin: 20% 40%;
+    /* IE 9 */
+    -webkit-transform: rotate(4deg);
+    /* Chrome, Safari, Opera */
+    -webkit-transform-origin: 20% 40%;
+    /* Chrome, Safari, Opera */ }
+
+  50% {
+    transform: rotate(-4deg);
+    transform-origin: 20% 40%;
+    -ms-transform: rotate(-4deg);
+    /* IE 9 */
+    -ms-transform-origin: 20% 40%;
+    /* IE 9 */
+    -webkit-transform: rotate(-4deg);
+    /* Chrome, Safari, Opera */
+    -webkit-transform-origin: 20% 40%;
+    /* Chrome, Safari, Opera */ }
+
+  100% {
+    transform: rotate(4deg);
+    transform-origin: 20% 40%;
+    -ms-transform: rotate(4deg);
+    /* IE 9 */
+    -ms-transform-origin: 20% 40%;
+    /* IE 9 */
+    -webkit-transform: rotate(4deg);
+    /* Chrome, Safari, Opera */
+    -webkit-transform-origin: 20% 40%;
+    /* Chrome, Safari, Opera */ } }
+
+#girl-right-leg {
+  /* Chrome, Safari, Opera */
+  -webkit-animation-name: char-girl-right-leg;
+  -webkit-animation-duration: 5s;
+  /*-webkit-animation-delay:-7s; */
+  /* Safari and Chrome */
+  -webkit-animation-iteration-count: infinite;
+  /*-webkit-animation-timing-function: linear;*/
+  -webkit-animation-play-state: running;
+  /* Standard syntax */
+  animation-name: char-girl-right-leg;
+  animation-duration: 5s;
+  /*animation-delay:-7s;*/
+  animation-iteration-count: infinite;
+  /*animation-timing-function: linear;*/
+  animation-play-state: running; }
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes char-girl-right-leg {
+  0% {
+    transform: rotate(4deg);
+    transform-origin: 50% 100%;
+    -ms-transform: rotate(4deg);
+    /* IE 9 */
+    -ms-transform-origin: 50% 100%;
+    /* IE 9 */
+    -webkit-transform: rotate(4deg);
+    /* Chrome, Safari, Opera */
+    -webkit-transform-origin: 50% 100%;
+    /* Chrome, Safari, Opera */ }
+
+  50% {
+    transform: rotate(-4deg);
+    transform-origin: 50% 100%;
+    -ms-transform: rotate(-4deg);
+    /* IE 9 */
+    -ms-transform-origin: 50% 100%;
+    /* IE 9 */
+    -webkit-transform: rotate(-4deg);
+    /* Chrome, Safari, Opera */
+    -webkit-transform-origin: 50% 100%;
+    /* Chrome, Safari, Opera */ }
+
+  100% {
+    transform: rotate(4deg);
+    transform-origin: 50% 100%;
+    -ms-transform: rotate(4deg);
+    /* IE 9 */
+    -ms-transform-origin: 50% 100%;
+    /* IE 9 */
+    -webkit-transform: rotate(4deg);
+    /* Chrome, Safari, Opera */
+    -webkit-transform-origin: 50% 100%;
+    /* Chrome, Safari, Opera */ } }
+
+@keyframes char-girl-right-leg {
+  0% {
+    transform: rotate(4deg);
+    transform-origin: 20% 100%;
+    -ms-transform: rotate(4deg);
+    /* IE 9 */
+    -ms-transform-origin: 20% 100%;
+    /* IE 9 */
+    -webkit-transform: rotate(4deg);
+    /* Chrome, Safari, Opera */
+    -webkit-transform-origin: 50% 100%;
+    /* Chrome, Safari, Opera */ }
+
+  50% {
+    transform: rotate(-4deg);
+    transform-origin: 20% 100%;
+    -ms-transform: rotate(-4deg);
+    /* IE 9 */
+    -ms-transform-origin: 20% 100%;
+    /* IE 9 */
+    -webkit-transform: rotate(-4deg);
+    /* Chrome, Safari, Opera */
+    -webkit-transform-origin: 20% 100%;
+    /* Chrome, Safari, Opera */ }
+
+  100% {
+    transform: rotate(4deg);
+    transform-origin: 20% 100%;
+    -ms-transform: rotate(4deg);
+    /* IE 9 */
+    -ms-transform-origin: 20% 100%;
+    /* IE 9 */
+    -webkit-transform: rotate(4deg);
+    /* Chrome, Safari, Opera */
+    -webkit-transform-origin: 20% 100%;
+    /* Chrome, Safari, Opera */ } }
+
 /* Style for Usual tabs */
 #tabs {
   background-color: #0066cc;
@@ -5143,7 +5426,10 @@ ul#tab-heading {
   position: absolute;
   text-align: center;
   max-width: 675px;
-  margin-left: 10px; }
+  right: 0px;
+  /* margin-right: 10px; */
+  /* float: left; */
+  /* clear: both; */ }
 
 ul#tab-heading li {
   position: relative;
@@ -5247,7 +5533,7 @@ ul#tab-heading li a div {
   font-family: arial, sans-serif;
   color: white;
   padding: 12px 0 0 12px;
-  margin: 0 0 12px 0;
+  margin: 0 50px 12px 0;
   float: left;
   max-width: 213px; }
 
@@ -5256,7 +5542,8 @@ ul#tab-heading li a div {
 
 .orange-square ul h1 {
   margin-bottom: 12px;
-  font-weight: bold; }
+  font-weight: bold;
+  color: white; }
 
 .orange-square ul:not(:first-child) h1 {
   position: relative;
@@ -5371,8 +5658,81 @@ ul#tab-heading li a div {
   width: 2000px;
   top: 465px; }
 
+#veggies {
+  bottom: -405px;
+  position: absolute;
+  z-index: 1;
+  width: 1647px;
+  left: -26px;
+  margin: 0 -300px; }
+
+#beanstalk {
+  position: absolute;
+  z-index: 2;
+  left: -14px;
+  bottom: 215px; }
+
+#stalkroot {
+  z-index: 2;
+  position: relative; }
+
+#stalkmiddle {
+  position: relative;
+  top: 75px;
+  left: 32px;
+  z-index: 1; }
+
+#stalktop {
+  position: relative;
+  top: 485px;
+  left: -39px;
+  z-index: 3;
+  width: 1474px; }
+
+#middle-art {
+  z-index: 0;
+  position: relative; }
+
+#bg-green {
+  position: absolute;
+  left: -14px;
+  top: 912px;
+  background-color: #008449;
+  width: 2000px;
+  height: 1000px;
+  z-index: 0; }
+
+#char-face {
+  position: relative;
+  top: 1090px;
+  left: 357px;
+  z-index: 4;
+  max-width: 127px; }
+
+#char-girl {
+  position: absolute;
+  top: 934px;
+  right: 466px;
+  z-index: 100; }
+
+#girl-body {
+  z-index: 2;
+  position: relative; }
+
+#girl-left-leg {
+  position: absolute;
+  left: 100px;
+  top: 220px;
+  z-index: 1; }
+
+#girl-right-leg {
+  position: absolute;
+  right: 195px;
+  top: 258px;
+  z-index: 1; }
+
 .laugh #background {
-  top: -143px; }
+  top: -155px; }
 
 #undersea {
   float: right; }
@@ -5822,8 +6182,8 @@ ul#tab-heading li a div {
 #rocks {
   position: absolute;
   text-align: right;
-  bottom: 210px;
-  left: 135px;
+  bottom: 179px;
+  left: 145px;
   z-index: 10;
   width: 1000px; }
 
