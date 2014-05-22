@@ -8,6 +8,8 @@
     <script src="bower_components/modernizr/modernizr.js"></script>
 </head>
 <body class="imagine">
+<div class="overlay" id="loader"><img src="images/PageLoad.gif"></div>
+
 <div class="row" id="navigation">
     <div class="header large-12 columns contain-to-grid">
 
@@ -342,27 +344,7 @@
 <script src="scripts/vendor/jqbrowser-compressed.js"></script>
 <script src="bower_components/foundation/js/foundation.min.js"></script>
 <script src="bower_components/foundation/js/foundation/foundation.topbar.js"></script>
-<script src="scripts/main.js"></script>
-<script type="text/javascript">
-    $(window).load(function () {
-        var s = skrollr.init({
-            forceHeight: false
-        });
-        s.refresh(document.body);
-    });
-
-
-    $(' .thumbs > li ').each(function () {
-        $(this).hoverdir();
-    });
-
-
-    if ($.browser.msie()) {
-        $("html").addClass("ie");
-    } else {
-        $("html").addClass("not-ie");
-    }
-</script>
 <script src="js/app.js"></script>
+
 </body>
 </html>

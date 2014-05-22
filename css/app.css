@@ -4750,6 +4750,34 @@ body {
 img {
   max-width: 100%; }
 
+/* This only works with JavaScript,
+           if it's not present, don't show loader */
+.no-js #loader {
+  display: none; }
+
+.js #loader {
+  position: absolute;
+  width: 100%;
+  height: 200%; }
+
+.js #loader img {
+  display: block;
+  position: fixed;
+  top: 25%;
+  left: 0;
+  right: 0;
+  margin: 5% auto; }
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200%;
+  z-index: 999;
+  background-color: white;
+  /*rgba(0,0,0,0.5); dim the background*/ }
+
 .imagine, .learn {
   background-color: #92d9f7; }
 
@@ -4846,6 +4874,10 @@ nav.top-bar {
 
 .top-bar-section ul li a {
   max-width: 6.25rem !important; }
+
+.top-bar .name {
+  top: 27px;
+  position: relative; }
 
 /* Grow Rotate */
 .grow-rotate {
@@ -5695,12 +5727,14 @@ ul#tab-heading li a div {
 
 #bg-green {
   position: absolute;
-  left: -14px;
+  left: -122px;
+  right: 0;
   top: 912px;
   background-color: #008449;
-  width: 2000px;
+  width: 1872px;
   height: 1000px;
-  z-index: 0; }
+  z-index: 0;
+  margin: 0 auto; }
 
 #char-face {
   position: relative;

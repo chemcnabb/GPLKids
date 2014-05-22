@@ -9,14 +9,15 @@ $("#tabs").idTabs(function (id, list, set) {
     return false;
 });
 
-$( "#tab-heading").find("a" ).click(function( event ) {
+$("#tab-heading").find("a").click(function (event) {
     event.preventDefault();
 });
 
 $(window).load(function () {
+
     var s = skrollr.init({
         forceHeight: false,
-        render: function(data){
+        render: function (data) {
             console.log(data.curTop);
         }
     });
@@ -34,3 +35,16 @@ if ($.browser.msie()) {
 } else {
     $("html").addClass("not-ie");
 }
+
+$("html").removeClass("no-js");
+$("html").addClass("js");
+
+// Wait for window load
+$(window).load(function () {
+    // Animate loader off screen
+    $("#loader").animate({
+        opacity: 0
+    }, 1500, function () {
+        $("#loader").css("display", "none");
+    });
+});

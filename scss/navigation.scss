@@ -43,7 +43,10 @@ nav.top-bar{
   max-width:rem-calc(100px) !important;
 }
 
-
+.top-bar .name{
+  top: 27px;
+  position: relative;
+}
 //
 //.navigation-menu ul {
 //  margin: 0px !important;
