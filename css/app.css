@@ -4744,7 +4744,7 @@ html, body {
   padding: 0; }
 
 /* Portrait tablet to landscape and desktop */
-@media (max-width: 1024px) {
+@media screen and (max-width: 1000px) {
   overflow-x: hidden;
   /* set for mobile media query */ }
 
