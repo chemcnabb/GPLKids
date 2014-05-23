@@ -4744,7 +4744,9 @@ html, body {
   padding: 0; }
 
 body {
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  overflow-y: auto;
+  max-width: 1000px; }
 
 img {
   max-width: 100%; }
