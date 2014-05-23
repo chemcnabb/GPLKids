@@ -15,13 +15,13 @@ $("#tab-heading").find("a").click(function (event) {
 
 $(window).load(function () {
 
-    var s = skrollr.init({
-        forceHeight: false,
-        render: function (data) {
-            console.log(data.curTop);
-        }
-    });
-    s.refresh(document.body);
+//    var s = skrollr.init({
+//        forceHeight: false,
+//        render: function (data) {
+//            console.log(data.curTop);
+//        }
+//    });
+//    s.refresh(document.body);
 });
 
 
