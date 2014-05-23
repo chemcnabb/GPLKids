@@ -4744,14 +4744,15 @@ html, body {
   padding: 0; }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  overflow-x: hidden;
-  /* set for mobile media query */ }
+@media only screen and (max-device-width: 1000px) {
+  html, body {
+    overflow-x: hidden;
+    /* set for mobile media query */
+    max-width: 1000px; } }
 
 body {
   overflow-x: hidden;
-  overflow-y: auto;
-  max-width: 1000px; }
+  overflow-y: auto; }
 
 img {
   max-width: 100%; }
