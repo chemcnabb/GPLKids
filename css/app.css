@@ -5441,7 +5441,7 @@ nav.top-bar {
   margin: 0 auto;
   height: auto;
   border-radius: 12px 12px 0 0;
-  z-index: 2;
+  z-index: 3;
   position: relative;
   top: 502px;
   width: auto; }
@@ -5555,7 +5555,7 @@ ul#tab-heading li a div {
   position: relative;
   margin-top: -5px;
   background-color: #ff6633;
-  z-index: 1;
+  z-index: 3;
   border-right: 10px solid #ff3300;
   border-top: 10px solid #ff3300;
   clear: both;
