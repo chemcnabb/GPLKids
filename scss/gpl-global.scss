@@ -7,8 +7,10 @@ html, body {
 }
 
 
-/* Portrait tablet to landscape and desktop */
-@media screen and (max-device-width: 1000px) {
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
   overflow-x:hidden; /* set for mobile media query */
 }
 
