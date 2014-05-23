@@ -4806,7 +4806,7 @@ img {
 
 .header {
   overflow: visible;
-  z-index: 1;
+  z-index: 5;
   position: relative; }
 
 #background {
