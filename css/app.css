@@ -4741,8 +4741,22 @@ html, body {
   height: 100%;
   width: 100%;
   margin: 0;
-  padding: 0;
-  overflow-x: hidden; }
+  padding: 0; }
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  overflow-x: hidden;
+  /* set for mobile media query */ }
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  overflow-x: hidden;
+  /* set for mobile media query */ }
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  overflow-x: hidden;
+  /* set for mobile media query */ }
 
 body {
   overflow-x: hidden;
