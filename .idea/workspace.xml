@@ -98,21 +98,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gpl-global.scss" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="gpl-global.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scss/gpl-global.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.6666667" vertical-offset="0" max-vertical-offset="2176">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.40206185" vertical-offset="1420" max-vertical-offset="2176">
+              <caret line="95" column="13" selection-start-line="95" selection-start-column="13" selection-end-line="95" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tabs.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="tabs.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/tabs.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.57731956" vertical-offset="2321" max-vertical-offset="3298">
-              <caret line="153" column="13" selection-start-line="153" selection-start-column="13" selection-end-line="153" selection-end-column="13" />
+            <state vertical-scroll-proportion="-2.118421" vertical-offset="2610" max-vertical-offset="3298">
+              <caret line="163" column="13" selection-start-line="163" selection-start-column="11" selection-end-line="163" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -169,8 +169,8 @@
         <option value="$PROJECT_DIR$/laugh.html" />
         <option value="$PROJECT_DIR$/imagine.html" />
         <option value="$PROJECT_DIR$/js/app.js" />
-        <option value="$PROJECT_DIR$/scss/gpl-global.scss" />
         <option value="$PROJECT_DIR$/scss/tabs.scss" />
+        <option value="$PROJECT_DIR$/scss/gpl-global.scss" />
       </list>
     </option>
   </component>
@@ -762,18 +762,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/gpl-global.scss">
+    <entry file="file://$PROJECT_DIR$/scss/tabs.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.6666667" vertical-offset="0" max-vertical-offset="2176">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="21" />
+        <state vertical-scroll-proportion="-2.118421" vertical-offset="2610" max-vertical-offset="3298">
+          <caret line="163" column="13" selection-start-line="163" selection-start-column="11" selection-end-line="163" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/tabs.scss">
+    <entry file="file://$PROJECT_DIR$/scss/gpl-global.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57731956" vertical-offset="2321" max-vertical-offset="3298">
-          <caret line="153" column="13" selection-start-line="153" selection-start-column="13" selection-end-line="153" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.40206185" vertical-offset="1420" max-vertical-offset="2176">
+          <caret line="95" column="13" selection-start-line="95" selection-start-column="13" selection-end-line="95" selection-end-column="13" />
           <folding />
         </state>
       </provider>
